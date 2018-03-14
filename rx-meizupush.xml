@@ -1,0 +1,6 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+<prescription type="broadcast" sender="other-app" class="com.meizu.cloud.pushsdk.SystemReceiver"/>
+<prescription type="broadcast" sender="other-app" class="com.taobao.taobao.TaoMeizuPushReceiver"/>
+<prescription type="broadcast" sender="other-app" class="com.alipay.pushsdk.thirdparty.meizu.MeizuPushReceiver"/>
+<prescription type="service" sender="other-app" class="com.meizu.cloud.pushsdk.NotificationService"/>
+</prescriptions>
